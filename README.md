@@ -5,7 +5,7 @@ Compliance Evidence and Data Maturity Assessment
 
 مسار التنفيذيين والقادة · أكاديمية سدايا · LDS-DMG-207 · المستوى 200
 
-REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر
+تبني حزمة أدلة تصمد أمام التدقيق: معايير قبول لكل مواصفة، وحكم على كل دليل بسببه، ودرجات نضج ومقاييس يمكن إعادة حسابها، وسجل ملاحظات وخطة تصحيحية تدافع عنهما
 
 يؤدي المشاركون دور أخصائي الامتثال في جهة عامة افتراضية تستعد للتقييم الوطني السنوي للبيانات. فيحكمون على مستودع من الأدلة الواقعية (سياسات ومحاضر ولقطات شاشة وسجلات)، ويقدّرون درجات النضج، ويحسبون المقاييس التشغيلية، ويقيسون عدد المرات التي يربط فيها مساعد ذكاء اصطناعي وثيقةً بمواصفة غير صحيحة. والنتيجة حزمة أدلة جاهزة للتدقيق، وسجل ملاحظات مرتب بحسب المخاطر، وخطة تصحيحية، تُختبر جميعها في تدقيق تجريبي. أما خرائط الطريق الموجهة إلى الجهات الراعية فموضوع المقرر LDS-ADV-202.
 
@@ -30,10 +30,10 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | الوحدة | العنوان | الجلسات | الشرائح |
 |---|---|---|---|
-| اليوم 1 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day1.html`](slides/day1.html) |
-| اليوم 2 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day2.html`](slides/day2.html) |
-| اليوم 3 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day3.html`](slides/day3.html) |
-| المشروع الختامي | عروض المشروع الختامي |  | [`slides/capstone.html`](slides/capstone.html) |
+| اليوم 1 | المنهجية ومعايير القبول | كيف يقيس التقييم الوطني; ما ينطبق علينا في هذه الدورة; معايير القبول في أربع طبقات; معايير تصمد أمام المراجعة | [`slides/day1.html`](slides/day1.html) |
+| اليوم 2 | الأدلة والدرجات | كاف أو جزئي أو غير كاف; العينات والجولات والسجلات واللقطات; استبانات النضج; المقاييس التشغيلية | [`slides/day2.html`](slides/day2.html) |
+| اليوم 3 | المساعد والملاحظات ودورة التدقيق | ربط الوثائق بمساعد، مقيسًا; قاعدة الاستخدام والتوقيع البشري; الملاحظات والأسباب الجذرية وترتيب المخاطر; الخطة التصحيحية ودورة التدقيق | [`slides/day3.html`](slides/day3.html) |
+| المشروع الختامي | التدقيق التجريبي |  | [`slides/capstone.html`](slides/capstone.html) |
 <!-- /academy:units -->
 
 ## دراسة الحالة
@@ -47,18 +47,18 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | | الجلسة | المختبر | الملف |
 |---|---|---|---|
-| 1.1 | اليوم 1 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 1.1 | [`D1_1.html`](labs/D1_1.html) |
-| 1.2 | اليوم 1 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 1.2 | [`D1_2.html`](labs/D1_2.html) |
-| 1.3 | اليوم 1 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 1.3 | [`D1_3.html`](labs/D1_3.html) |
-| 1.4 | اليوم 1 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 1.4 | [`D1_4.html`](labs/D1_4.html) |
-| 2.1 | اليوم 2 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 2.1 | [`D2_1.html`](labs/D2_1.html) |
-| 2.2 | اليوم 2 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 2.2 | [`D2_2.html`](labs/D2_2.html) |
-| 2.3 | اليوم 2 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 2.3 | [`D2_3.html`](labs/D2_3.html) |
-| 2.4 | اليوم 2 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 2.4 | [`D2_4.html`](labs/D2_4.html) |
-| 3.1 | اليوم 3 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 3.1 | [`D3_1.html`](labs/D3_1.html) |
-| 3.2 | اليوم 3 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 3.2 | [`D3_2.html`](labs/D3_2.html) |
-| 3.3 | اليوم 3 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 3.3 | [`D3_3.html`](labs/D3_3.html) |
-| 3.4 | اليوم 3 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 3.4 | [`D3_4.html`](labs/D3_4.html) |
+| 1.1 | اليوم 1 · الجلسة 1 | خريطة الأجزاء الثلاثة | [`D1_1_three_parts.html`](labs/D1_1_three_parts.html) |
+| 1.2 | اليوم 1 · الجلسة 2 | جرد الالتزامات ونطاق الدورة | [`D1_2_instruments.html`](labs/D1_2_instruments.html) |
+| 1.3 | اليوم 1 · الجلسة 3 | معايير لعشر مواصفات | [`D1_3_criteria.html`](labs/D1_3_criteria.html) |
+| 1.4 | اليوم 1 · الجلسة 4 | عشر مواصفات أخرى ومسودة زميل | [`D1_4_review.html`](labs/D1_4_review.html) |
+| 2.1 | اليوم 2 · الجلسة 1 | ثلاثون بندًا دون مساعد | [`D2_1_items_first.html`](labs/D2_1_items_first.html) |
+| 2.2 | اليوم 2 · الجلسة 2 | ثلاثون بندًا آخر وقياس الاتفاق | [`D2_2_items_second.html`](labs/D2_2_items_second.html) |
+| 2.3 | اليوم 2 · الجلسة 3 | استبانة بإحالات كاملة | [`D2_3_questionnaire.html`](labs/D2_3_questionnaire.html) |
+| 2.4 | اليوم 2 · الجلسة 4 | أربعة مقاييس من المستخرجات | [`D2_4_metrics.html`](labs/D2_4_metrics.html) |
+| 3.1 | اليوم 3 · الجلسة 1 | أخطاء المساعد مقابل المفتاح | [`D3_1_mapping_errors.html`](labs/D3_1_mapping_errors.html) |
+| 3.2 | اليوم 3 · الجلسة 2 | قاعدة استخدام مكتوبة | [`D3_2_usage_rule.html`](labs/D3_2_usage_rule.html) |
+| 3.3 | اليوم 3 · الجلسة 3 | سجل ملاحظات مرتب | [`D3_3_register.html`](labs/D3_3_register.html) |
+| 3.4 | اليوم 3 · الجلسة 4 | خطة تصحيحية وتقويم الجاهزية | [`D3_4_plan.html`](labs/D3_4_plan.html) |
 <!-- /academy:labs -->
 
 ## المشروع الختامي
@@ -87,7 +87,27 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 <!-- academy:sources -->
 ## المصادر
 
-- REPLACE: كل مصدر يستشهد به المقرر مع عنوانه، في course.json ضمن "sources"؛ هذه القائمة تُكتب من هناك
+### المراجع الوطنية
+
+- [مكتب إدارة البيانات الوطنية: ضوابط ومواصفات إدارة البيانات الوطنية وحوكمتها وحماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/DataManagementPersonalDataProtectionStandardsAr.pdf)
+- [NDMO: Data Management and Personal Data Protection Standards (English edition)](https://sdaia.gov.sa/en/SDAIA/about/Documents/DataManagementPersonalDataProtectionStandards.pdf)
+- [مبادئ الذكاء الاصطناعي التوليدي للجهات الحكومية (سدايا)](https://sdaia.gov.sa/ar/SDAIA/about/Files/GenAIGuidelinesForGovernmentARCompressed.pdf)
+- [منصة حوكمة البيانات الوطنية](https://dgp.sdaia.gov.sa/)
+- [سدايا: الأنظمة والسياسات (صفحة الفهرس)](https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx)
+
+### نماذج النضج الدولية
+
+- [EDM Council: DCAM, the Data Management Capability Assessment Model](https://edmcouncil.org/frameworks/dcam/)
+- [DAMA International: What is DAMA International?](https://dama.org/2026/04/14/what-is-dama-international-a-guide-for-data-professionals/)
+
+### الأدوات (أمثلة)
+
+- [LibreOffice](https://www.libreoffice.org/)
+- [Redmine](https://www.redmine.org/)
+- [Nextcloud](https://nextcloud.com/)
+- [Git](https://git-scm.com/)
+- [Apache Superset](https://superset.apache.org/)
+- [Metabase](https://www.metabase.com/)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية

@@ -1,0 +1,67 @@
+<article class="lab" data-lab="2.4">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>قيم المقاييس الأربعة M1 إلى M4، لكل منها البسط والمقام والقيمة، وما استبعدته ولماذا، بحيث يعيد غيرك الحساب فيصل إلى الرقم نفسه.</li>
+  </ul>
+</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/metric_definitions.txt" target="_blank"><b>metric_definitions.txt</b><span>تعريفات المقاييس الأربعة.</span></a>
+  <a href="files/catalogue_extract.csv" download><b>catalogue_extract.csv</b><span>مستخرج الكتالوج.</span></a>
+  <a href="files/quality_runs.csv" download><b>quality_runs.csv</b><span>سجل تشغيل قواعد الجودة.</span></a>
+  <a href="files/sharing_requests.csv" download><b>sharing_requests.csv</b><span>طلبات مشاركة البيانات.</span></a>
+  <a href="files/opendata_register.csv" download><b>opendata_register.csv</b><span>سجل البيانات المفتوحة.</span></a>
+  <a href="files/metrics_sheet.xlsx" download><b>metrics_sheet.xlsx</b><span>ورقة النتائج.</span></a>
+</div>
+<p class="small">سياسة الذكاء الاصطناعي في هذا المختبر: <b>مساعد مرشد</b>. يجوز أن تسأل مساعدًا معتمدًا بكلماتك عن مفهوم، ولا تلصق فيه أي محتوى من ملفات الحالة المصنفة «مقيد»، ولا تطلب منه الحكم عنك.</p>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · اقرأ تعريفات المقاييس الأربعة <span class="min">5 د</span></h3>
+  <p>اقرأ التعريفات الأربعة، وعلّم في كل تعريف الاستثناءات.</p>
+</div>
+
+<div class="step">
+  <h3>2 · احسب M1 من مستخرج الكتالوج <span class="min">11 د</span></h3>
+  <p>في مستخرج الكتالوج: رتب بالأصل ثم بتاريخ التحديث تنازليًا، وأبقِ أحدث صف لكل أصل، ثم طبق الاستثناءات واحسب.</p>
+</div>
+
+<div class="step">
+  <h3>3 · احسب M2 من سجل تشغيل القواعد <span class="min">10 د</span></h3>
+  <p>في سجل التشغيل: أبقِ القواعد المفعلة على بيانات الأولوية 1، وآخر تشغيل لكل قاعدة داخل الفترة.</p>
+</div>
+
+<div class="step">
+  <h3>4 · احسب M3 وM4 <span class="min">10 د</span></h3>
+  <p>احسب الوسيط في طلبات المشاركة، والنسبة في سجل البيانات المفتوحة.</p>
+</div>
+
+<div class="step">
+  <h3>5 · اكتب ما استبعدته ولماذا <span class="min">4 د</span></h3>
+  <p>اكتب في عمود «ما استُبعد» كل صف أو فئة استبعدتها وقاعدتها.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ تمرين إضافي</h3>
+  <p>احسب M1 دون أي استثناء وقارن القيمتين.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>كم صار مقام M1 بعد إزالة المكرر والملغى والتجريبي؟</li>
+  <li>لماذا لا يدخل تشغيل بعد نهاية الفترة في M2؟</li>
+  <li>أي المجموعات المنشورة متأخرة في التحديث؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرّب</summary>
+  <ul>
+    <li>المفتاح في <code>labs/solutions/D2_4_metrics.md</code>: M1 = 48 من 61 = 78.7%، وM2 = 33 من 37 = 89.2%، وM3 وسيط 14 يومًا على 37 طلبًا مع 5 طلبات مفتوحة أكثر من 30 يومًا، وM4 = 5 من 9 = 55.6%.</li>
+    <li>من يحسب M1 على كل صفوف الأصول الحرجة دون استثناء يحصل على 62.5%.</li>
+    <li>في LibreOffice Calc: أداة «إزالة التكرارات» تبقي أول صف، فالترتيب التنازلي بالتاريخ قبلها شرط.</li>
+  </ul>
+</details>
+</article>
