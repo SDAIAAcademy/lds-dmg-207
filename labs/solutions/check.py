@@ -169,7 +169,12 @@ def lab_2_2():
     by_dom = {"DG": [], "DQ": [], "OD": []}
     for k in range(1, 21):
         by_dom[["DG", "DQ", "OD"][0 if k <= 8 else 1 if k <= 14 else 2]].append(comp[f"S{k:02d}"])
+    lab_specs = [f"S{k:02d}" for k in range(11, 21)]
+    lab_ok = sum(comp[s] == 100 for s in lab_specs)
+    assert lab_ok == 6, lab_ok
     print(f"  E31 to E60: {counts}; agreement target 85% of 60 = {-(-60 * 85 // 100)} items")
+    print(f"  main step: S11 to S20 compliant {lab_ok} of 10; non-compliant "
+          f"{[s for s in lab_specs if comp[s] == 0]}")
     print(f"  compliant specs {sum(v == 100 for v in comp.values())} of 20: "
           + ", ".join(f"{d} {sum(v == 100 for v in vs)}/{len(vs)}" for d, vs in by_dom.items()))
     print(f"  non-compliant: {[s for s, v in comp.items() if v == 0]}")

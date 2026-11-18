@@ -30,7 +30,7 @@
 | 1.3 | `D1_3_criteria.html` | `spec_extract.txt`، `criteria_template.xlsx` | `solutions/D1_3_criteria.md` |
 | 1.4 | `D1_4_review.html` | `spec_extract.txt`، `criteria_template.xlsx` | `solutions/D1_4_review.md` |
 | 2.1 | `D2_1_items_first.html` | `evidence_register.xlsx`، `sufficiency_rules.txt` | `solutions/D2_1_items_first.md` |
-| 2.2 | `D2_2_items_second.html` | `evidence_register.xlsx`، `sufficiency_rules.txt` | `solutions/D2_2_items_second.md` |
+| 2.2 | `D2_2_items_second.html` | `evidence_register.xlsx`، `sufficiency_rules.txt`، وطبقات S11 إلى S20 من الإجابة النموذجية للمختبر 1.4 | `solutions/D2_2_items_second.md` |
 | 2.3 | `D2_3_questionnaire.html` | `questionnaire.xlsx` | `solutions/D2_3_questionnaire.md` |
 | 2.4 | `D2_4_metrics.html` | `metric_definitions.txt`، أربعة مستخرجات CSV، `metrics_sheet.xlsx` | `solutions/D2_4_metrics.md` |
 | 3.1 | `D3_1_mapping_errors.html` | `mapping_pilot.xlsx`، `public_docs.xlsx` | `solutions/D3_1_mapping_errors.md` |
@@ -81,3 +81,11 @@ uv run labs/_tools/write_solutions.py
 
 الأول يولد كل ملفات `files/` ومفاتيح `solutions/reference/` ببذرة ثابتة، فيعطي البايتات نفسها في كل تشغيل. والثاني يكتب
 الحلول المرجعية من المفاتيح.
+
+## أرقام الشرائح الإحصائية
+
+```bash
+uv run labs/_tools/stats.py
+```
+
+يطبع مجالات الثقة 95% (ويلسون) لنسب خطأ المساعد، واحتمالات شرط التوقف، وأرقام الأمثلة الموازية التي تقتبسها شرائح اليوم الثالث.
