@@ -2,16 +2,16 @@
   "v": 1,
   "engine": "1.0.0",
   "build": {
-    "at": "2026-11-18T01:25:28Z",
+    "at": "2026-11-18T02:34:43Z",
     "version": "2027.1.0",
-    "commit": "bdc5bb7"
+    "commit": "ba90df7"
   },
   "lang": "ar",
   "dir": "rtl",
   "totals": {
     "decks": 4,
     "slides": 131,
-    "words": 7071,
+    "words": 7079,
     "notes": 118,
     "notes_ratio": 0.9,
     "activities": 14,
@@ -467,7 +467,7 @@
       "label": "اليوم 3",
       "title": "المساعد والملاحظات ودورة التدقيق",
       "slides": 36,
-      "words": 2026,
+      "words": 2034,
       "notes": 32,
       "notes_ratio": 0.89,
       "activities": 5,
@@ -507,7 +507,7 @@
           "label": "الجلسة 1",
           "title": "ربط الوثائق بمساعد، مقيسًا",
           "slides": 8,
-          "words": 459,
+          "words": 467,
           "notes": 7,
           "notes_ratio": 0.88,
           "activities": 1,
