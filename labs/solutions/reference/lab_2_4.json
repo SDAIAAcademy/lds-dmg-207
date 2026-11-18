@@ -1,0 +1,31 @@
+{
+ "M1": {
+  "num": 48,
+  "den": 61,
+  "value": 78.7,
+  "naive_all_rows": 62.5,
+  "rows": 120,
+  "duplicates": 10
+ },
+ "M2": {
+  "num": 33,
+  "den": 37,
+  "value": 89.2
+ },
+ "M3": {
+  "n": 37,
+  "median_days": 14,
+  "open_over_30": 5
+ },
+ "M4": {
+  "num": 5,
+  "den": 9,
+  "value": 55.6,
+  "late": [
+   "OD03",
+   "OD05",
+   "OD07",
+   "OD08"
+  ]
+ }
+}

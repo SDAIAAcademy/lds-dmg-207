@@ -1,0 +1,13 @@
+dataset_id,title,status,frequency,last_update
+OD01,أعداد الطلاب حسب الكلية,published,quarterly,2027-05-21
+OD02,أعداد الخريجين حسب التخصص,published,annual,2026-12-12
+OD03,الطاقة الاستيعابية للسكن الجامعي,published,annual,2026-05-16
+OD04,أعداد أعضاء هيئة التدريس,published,annual,2027-03-02
+OD05,البرامج الأكاديمية المعتمدة,published,quarterly,2027-01-31
+OD06,مواعيد التقويم الأكاديمي,published,quarterly,2027-05-01
+OD07,إحصاءات المكتبة الشهرية,published,monthly,2027-04-16
+OD08,المنح البحثية المنشورة,published,annual,2026-06-15
+OD09,زيارات الموقع الإلكتروني,published,monthly,2027-06-10
+OD10,أعداد المقبولين في الفصل الصيفي,removed,annual,2026-02-15
+OD11,أسعار خدمات الإسكان,removed,annual,2026-04-06
+OD12,رضا الطلاب عن الخدمات,draft,annual,

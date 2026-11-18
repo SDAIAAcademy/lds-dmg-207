@@ -1,0 +1,86 @@
+{
+ "questions": {
+  "Q01": {
+   "domain": "حوكمة البيانات",
+   "claimed": 4,
+   "supported": 2,
+   "first_missing": 3
+  },
+  "Q02": {
+   "domain": "حوكمة البيانات",
+   "claimed": 3,
+   "supported": 2,
+   "first_missing": 3
+  },
+  "Q03": {
+   "domain": "حوكمة البيانات",
+   "claimed": 3,
+   "supported": 3,
+   "first_missing": 4
+  },
+  "Q04": {
+   "domain": "حوكمة البيانات",
+   "claimed": 2,
+   "supported": 4,
+   "first_missing": 5
+  },
+  "Q05": {
+   "domain": "جودة البيانات",
+   "claimed": 3,
+   "supported": 2,
+   "first_missing": 3
+  },
+  "Q06": {
+   "domain": "جودة البيانات",
+   "claimed": 4,
+   "supported": 3,
+   "first_missing": 4
+  },
+  "Q07": {
+   "domain": "جودة البيانات",
+   "claimed": 3,
+   "supported": 3,
+   "first_missing": 4
+  },
+  "Q08": {
+   "domain": "جودة البيانات",
+   "claimed": 2,
+   "supported": 1,
+   "first_missing": 2
+  },
+  "Q09": {
+   "domain": "البيانات المفتوحة",
+   "claimed": 3,
+   "supported": 3,
+   "first_missing": 4
+  },
+  "Q10": {
+   "domain": "البيانات المفتوحة",
+   "claimed": 3,
+   "supported": 2,
+   "first_missing": 3
+  },
+  "Q11": {
+   "domain": "البيانات المفتوحة",
+   "claimed": 4,
+   "supported": 1,
+   "first_missing": 2
+  },
+  "Q12": {
+   "domain": "البيانات المفتوحة",
+   "claimed": 5,
+   "supported": 4,
+   "first_missing": 5
+  }
+ },
+ "domain_claimed": {
+  "حوكمة البيانات": 3.0,
+  "جودة البيانات": 3.0,
+  "البيانات المفتوحة": 3.75
+ },
+ "domain_supported": {
+  "حوكمة البيانات": 2.75,
+  "جودة البيانات": 2.25,
+  "البيانات المفتوحة": 2.5
+ }
+}

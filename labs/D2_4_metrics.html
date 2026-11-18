@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="lab" data-track="executives">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المختبر 2.4 · أربعة مقاييس من المستخرجات · أدلة الامتثال وتقييم نضج البيانات</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="D2_4_metrics.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="top"><div class="logo"></div><nav><a href="../index.html">صفحة المقرر</a><a href="../slides/day2.html#lab-2-4">العودة إلى الشرائح</a></nav></div>
+<span class="tag">المختبر 2.4</span>
+<h1>أربعة مقاييس من المستخرجات</h1>
+<p>مستخرجات الكتالوج وتشغيل قواعد الجودة وطلبات المشاركة وسجل البيانات المفتوحة: تحسب أربعة مقاييس بتعريفاتها، وتكتب ما استبعدته ولماذا.</p>
+<div class="meta"><span>40 دقيقة</span><span>اليوم 2</span><span>الجلسة 4: المقاييس التشغيلية</span></div>
+</div>
+</header>
+<main class="wrap">
+<article class="lab" data-lab="2.4">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>قيم المقاييس الأربعة M1 إلى M4، لكل منها البسط والمقام والقيمة، وما استبعدته ولماذا، بحيث يعيد غيرك الحساب فيصل إلى الرقم نفسه.</li>
+  </ul>
+</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/metric_definitions.txt" target="_blank"><b>metric_definitions.txt</b><span>تعريفات المقاييس الأربعة.</span></a>
+  <a href="files/catalogue_extract.csv" download><b>catalogue_extract.csv</b><span>مستخرج الكتالوج.</span></a>
+  <a href="files/quality_runs.csv" download><b>quality_runs.csv</b><span>سجل تشغيل قواعد الجودة.</span></a>
+  <a href="files/sharing_requests.csv" download><b>sharing_requests.csv</b><span>طلبات مشاركة البيانات.</span></a>
+  <a href="files/opendata_register.csv" download><b>opendata_register.csv</b><span>سجل البيانات المفتوحة.</span></a>
+  <a href="files/metrics_sheet.xlsx" download><b>metrics_sheet.xlsx</b><span>ورقة النتائج.</span></a>
+</div>
+<p class="small">سياسة الذكاء الاصطناعي في هذا المختبر: <b>مساعد مرشد</b>. يجوز أن تسأل مساعدًا معتمدًا بكلماتك عن مفهوم، ولا تلصق فيه أي محتوى من ملفات الحالة المصنفة «مقيد»، ولا تطلب منه الحكم عنك.</p>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · اقرأ تعريفات المقاييس الأربعة <span class="min">5 د</span></h3>
+  <p>اقرأ التعريفات الأربعة، وعلّم في كل تعريف الاستثناءات.</p>
+</div>
+
+<div class="step">
+  <h3>2 · احسب M1 من مستخرج الكتالوج <span class="min">11 د</span></h3>
+  <p>في مستخرج الكتالوج: رتب بالأصل ثم بتاريخ التحديث تنازليًا، وأبقِ أحدث صف لكل أصل، ثم طبق الاستثناءات واحسب.</p>
+</div>
+
+<div class="step">
+  <h3>3 · احسب M2 من سجل تشغيل القواعد <span class="min">10 د</span></h3>
+  <p>في سجل التشغيل: أبقِ القواعد المفعلة على بيانات الأولوية 1، وآخر تشغيل لكل قاعدة داخل الفترة.</p>
+</div>
+
+<div class="step">
+  <h3>4 · احسب M3 وM4 <span class="min">10 د</span></h3>
+  <p>احسب الوسيط في طلبات المشاركة، والنسبة في سجل البيانات المفتوحة.</p>
+</div>
+
+<div class="step">
+  <h3>5 · اكتب ما استبعدته ولماذا <span class="min">4 د</span></h3>
+  <p>اكتب في عمود «ما استُبعد» كل صف أو فئة استبعدتها وقاعدتها.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ تمرين إضافي</h3>
+  <p>احسب M1 دون أي استثناء وقارن القيمتين.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>كم صار مقام M1 بعد إزالة المكرر والملغى والتجريبي؟</li>
+  <li>لماذا لا يدخل تشغيل بعد نهاية الفترة في M2؟</li>
+  <li>أي المجموعات المنشورة متأخرة في التحديث؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرّب</summary>
+  <ul>
+    <li>المفتاح في <code>labs/solutions/D2_4_metrics.md</code>: M1 = 48 من 61 = 78.7%، وM2 = 33 من 37 = 89.2%، وM3 وسيط 14 يومًا على 37 طلبًا مع 5 طلبات مفتوحة أكثر من 30 يومًا، وM4 = 5 من 9 = 55.6%.</li>
+    <li>من يحسب M1 على كل صفوف الأصول الحرجة دون استثناء يحصل على 62.5%.</li>
+    <li>في LibreOffice Calc: أداة «إزالة التكرارات» تبقي أول صف، فالترتيب التنازلي بالتاريخ قبلها شرط.</li>
+  </ul>
+</details>
+</article>
+<nav class="pager"><a href="D2_3_questionnaire.html" rel="prev">→ المختبر السابق</a><a href="D3_1_mapping_errors.html" rel="next">المختبر التالي ←</a></nav>
+</main>
+<footer><div class="wrap">أكاديمية سدايا · مسار التنفيذيين والقادة · أدلة الامتثال وتقييم نضج البيانات<br><span class="muted">إصدار المقرر 2027.1.0 · المحرّك 1.0.0 · بُني في ⁦2026-11-18⁩ · الإيداع bdc5bb7</span></div></footer>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-18T01:25:28Z","version":"2027.1.0","commit":"bdc5bb7"},"course":{"id":"lds-dmg-207","code":"LDS-DMG-207","title":"أدلة الامتثال وتقييم نضج البيانات","track":"executives","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/lds-dmg-207/","repo":"SDAIAAcademy/lds-dmg-207","home":"../index.html"},"lab":{"id":"2.4","title":"أربعة مقاييس من المستخرجات","summary":"مستخرجات الكتالوج وتشغيل قواعد الجودة وطلبات المشاركة وسجل البيانات المفتوحة: تحسب أربعة مقاييس بتعريفاتها، وتكتب ما استبعدته ولماذا.","minutes":40,"day":2,"unit":"اليوم 2","session":4,"deck":"../slides/day2.html#lab-2-4","prev":"D2_3_questionnaire.html","next":"D3_1_mapping_errors.html","alt":{}},"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":null,"llms":"../llms.txt"},"tasks":[],"tools":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>
